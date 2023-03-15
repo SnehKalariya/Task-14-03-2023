@@ -14,6 +14,9 @@
 		324506A929C043ED00F32864 /* Task_14_03_2023.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 324506A729C043ED00F32864 /* Task_14_03_2023.xcdatamodeld */; };
 		324506AB29C043EF00F32864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324506AA29C043EF00F32864 /* Assets.xcassets */; };
 		324506AE29C043EF00F32864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324506AC29C043EF00F32864 /* LaunchScreen.storyboard */; };
+		324506B629C0512500F32864 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324506B529C0512500F32864 /* CollectionViewCell.swift */; };
+		324506B829C191F000F32864 /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324506B729C191F000F32864 /* CollectionViewCell2.swift */; };
+		324506BA29C1924F00F32864 /* CollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324506B929C1924F00F32864 /* CollectionViewCell3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		324506AA29C043EF00F32864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		324506AD29C043EF00F32864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		324506AF29C043EF00F32864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324506B529C0512500F32864 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		324506B729C191F000F32864 /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
+		324506B929C1924F00F32864 /* CollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				324506A029C043ED00F32864 /* SceneDelegate.swift */,
 				324506A229C043ED00F32864 /* ViewController.swift */,
 				324506A429C043ED00F32864 /* Main.storyboard */,
+				324506B929C1924F00F32864 /* CollectionViewCell3.swift */,
+				324506B729C191F000F32864 /* CollectionViewCell2.swift */,
+				324506B529C0512500F32864 /* CollectionViewCell.swift */,
 				324506AA29C043EF00F32864 /* Assets.xcassets */,
 				324506AC29C043EF00F32864 /* LaunchScreen.storyboard */,
 				324506AF29C043EF00F32864 /* Info.plist */,
@@ -141,9 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324506B629C0512500F32864 /* CollectionViewCell.swift in Sources */,
 				324506A329C043ED00F32864 /* ViewController.swift in Sources */,
 				3245069F29C043ED00F32864 /* AppDelegate.swift in Sources */,
+				324506B829C191F000F32864 /* CollectionViewCell2.swift in Sources */,
 				324506A129C043ED00F32864 /* SceneDelegate.swift in Sources */,
+				324506BA29C1924F00F32864 /* CollectionViewCell3.swift in Sources */,
 				324506A929C043ED00F32864 /* Task_14_03_2023.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
